@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff7259;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* main session */
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 30px;
+  width: 500px;
+
+}
+
+.benefit-card {
+  border-bottom: 2px solid #f7966a;
+  border-top: 2px solid #f7966a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+article {
+  padding-left: 50px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #ff7259;
+  border-bottom: 3px solid #f7966a;
+  width: 170px;
+}
+
+aside {
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  border: 2px solid #f7966a;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.text-biodata {
+  text-align: center;
+  border-bottom: 1px solid #f7966a;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-biodata {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ff7259;
+  color: white;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .img-hero {
+    width: 100%;
+  }
+}
